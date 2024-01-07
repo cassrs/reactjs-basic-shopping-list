@@ -4,7 +4,7 @@ import Stars from "./Stars";
 
 const Card = (props) => {
     return (
-            <div class="col mb-5 cards">
+            <div class="col mb-5">
                 <div class="card h-100">
                     {props.badge}
                     <img class="card-img-top" src={props.image} alt="..." />
