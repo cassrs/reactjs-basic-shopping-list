@@ -4,8 +4,7 @@ import Stars from "./Stars";
 
 const Card = (props) => {
     return (
-        <a href="#" className="cards">
-            <div class="col mb-5">
+            <div class="col mb-5 cards">
                 <div class="card h-100">
                     {props.badge}
                     <img class="card-img-top" src={props.image} alt="..." />
@@ -22,7 +21,6 @@ const Card = (props) => {
                     </div>
                 </div>
             </div>
-        </a>
     )
 }
 export default Card;
